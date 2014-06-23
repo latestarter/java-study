@@ -208,7 +208,7 @@ public class DisplayScreen extends JPanel implements ActionListener {
     		int lineSize = line.length;
     		
     		for ( int i = 0 ; i < lineSize ; i++) {
-//    			System.out.println("line=> " + line[i]);
+//    			System.out.println("line=> " + line[i]); //
     			String[] column = line[i].split(",");
 //    			System.out.println("0=> " + column[0]);
         		dt.addRow(column);    				
